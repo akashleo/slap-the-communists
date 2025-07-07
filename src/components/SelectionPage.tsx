@@ -40,7 +40,7 @@ const SelectionPage: React.FC = () => {
                 <img
                   src={leader.imageUrl}
                   alt={leader.name}
-                  className="w-full h-48 sm:h-56 md:h-64 object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="w-full h-64 sm:h-56 md:h-64 object-cover object-center group-hover:scale-110 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                 <div className="absolute bottom-3 sm:bottom-4 left-3 sm:left-4 right-3 sm:right-4">
@@ -83,6 +83,13 @@ const SelectionPage: React.FC = () => {
             </div>
           ))}
         </div>
+      </div>
+      
+      {/* Footer */}
+      <div className="text-center py-6 px-4">
+        <p className="text-gray-300 text-sm">
+          Made with ❤️ by <span className="text-yellow-400 font-semibold">Akash Ghosh</span>. 2025 All rights reserved.
+        </p>
       </div>
     </div>
   );

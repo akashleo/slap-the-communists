@@ -51,6 +51,15 @@ const LandingPage: React.FC = () => {
       
       {/* Decorative elements */}
       <div className="absolute bottom-0 left-0 right-0 h-16 sm:h-32 bg-gradient-to-t from-black/20 to-transparent"></div>
+      
+      {/* Footer */}
+      <div className="absolute bottom-0 left-0 right-0 z-20">
+        <div className="text-center py-4 px-4">
+          <p className="text-gray-300 text-sm">
+            Made with ❤️ by <span className="text-yellow-400 font-semibold">Akash Ghosh</span>. 2025 All rights reserved.
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
