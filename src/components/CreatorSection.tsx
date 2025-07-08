@@ -32,7 +32,7 @@ const CreatorSection: React.FC = () => {
     description: 'A young Engineer who grew up influenced by communist ideologies in West Bengal. On a mission to eradicate Communism and communist influenced mindset from India',
     imageUrl: '/akash.jpg', 
     country: 'India',
-    years: '2018-present'
+    years: 'Always'
   };
 
   // Creator specific atrocities
