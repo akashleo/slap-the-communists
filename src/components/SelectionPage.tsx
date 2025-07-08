@@ -2,6 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { leaders } from '../data/leaders';
 import { Star, Users, Calendar } from 'lucide-react';
+import Footer from './Footer';
 
 const SelectionPage: React.FC = () => {
   const navigate = useNavigate();
@@ -13,6 +14,22 @@ const SelectionPage: React.FC = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-red-900 to-gray-900 py-6 sm:py-8 md:py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
+        {/* Creator Section CTA */}
+        <div className="text-center mb-8">
+          <button
+            onClick={() => navigate('/creator')}
+            className="group relative bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base font-bold shadow-2xl transform hover:scale-105 transition-all duration-300 touch-manipulation"
+          >
+            <div className="flex items-center justify-center space-x-2">
+              <Star className="w-4 h-4 sm:w-5 sm:h-5 group-hover:animate-bounce" />
+              <span>Head to Creator Section</span>
+            </div>
+            
+            {/* Button glow effect */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300"></div>
+          </button>
+        </div>
+
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
@@ -86,11 +103,7 @@ const SelectionPage: React.FC = () => {
       </div>
       
       {/* Footer */}
-      <div className="text-center py-6 px-4">
-        <p className="text-gray-300 text-sm">
-          Made with ❤️ by <span className="text-yellow-400 font-semibold">Akash Ghosh</span>. 2025 All rights reserved.
-        </p>
-      </div>
+      <Footer />
     </div>
   );
 };
