@@ -41,7 +41,7 @@ const CreatorSection: React.FC = () => {
     "Participated in the CAA-NRC protest in 2019",
     "Celebrated the ruling govt. to tackle the rise of BJP in 2021.",
     "Argued with elders unnecessarily with half baked knowledge in 2019-2020",
-    "Spread misinformation about Ayodhya Rammandir and BJP in 2019-2021."
+    "Spread misinformation about Ayodhya Ram Mandir and BJP in 2019-2021."
   ];
   
   const creatorGoodDeeds = [
@@ -49,7 +49,7 @@ const CreatorSection: React.FC = () => {
     "Puts India's interest at the top.",
     "Acknowledges India has a civilizational heritage.",
     "Celebrates Indic culture and accepts India's Dharmic history.",
-    "Pro in History."
+    "Pro in History and GeoPolitics"
   ];
 
   // Get random atrocity for the creator
