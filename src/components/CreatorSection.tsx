@@ -29,7 +29,7 @@ const CreatorSection: React.FC = () => {
   const creator = {
     id: 'creator',
     name: 'Akash Ghosh',
-    description: 'A young Engineer who grew up influenced by communist ideologies in West Bengal. On a mission to eradicate Communism and communist influendced mids history from India',
+    description: 'A young Engineer who grew up influenced by communist ideologies in West Bengal. On a mission to eradicate Communism and communist influenced mindset from India',
     imageUrl: '/akash.jpg', 
     country: 'India',
     years: '2018-present'
