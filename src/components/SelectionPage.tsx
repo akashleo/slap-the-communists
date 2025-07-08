@@ -15,7 +15,7 @@ const SelectionPage: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-red-900 to-gray-900 py-6 sm:py-8 md:py-12 px-4 sm:px-6">
       <div className="max-w-6xl mx-auto">
         {/* Creator Section CTA */}
-        <div className="text-center mb-8">
+        {/* <div className="text-center mb-8">
           <button
             onClick={() => navigate('/creator')}
             className="group relative bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 sm:px-8 sm:py-4 rounded-full text-sm sm:text-base font-bold shadow-2xl transform hover:scale-105 transition-all duration-300 touch-manipulation"
@@ -25,10 +25,10 @@ const SelectionPage: React.FC = () => {
               <span>Head to Creator Section</span>
             </div>
             
-            {/* Button glow effect */}
+        
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 opacity-0 group-hover:opacity-20 blur-xl transition-opacity duration-300"></div>
           </button>
-        </div>
+        </div> */}
 
         {/* Header */}
         <div className="text-center mb-8 sm:mb-12 md:mb-16">

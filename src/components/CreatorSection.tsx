@@ -418,11 +418,11 @@ const CreatorSection: React.FC = () => {
                 <div className="mt-6 p-4 bg-gray-700 rounded-lg">
                   <div className="flex items-center space-x-2 text-yellow-400">
                     <Zap className="w-5 h-5" />
-                    <span className="font-medium">Correction Statistics</span>
+                    <span className="font-medium">Slapping Statistics</span>
                   </div>
                   <div className="mt-2 text-gray-300">
-                    <p>Total corrections delivered: <span className="text-purple-400 font-bold">{slapCount}</span></p>
-                    <p>Education level: <span className="text-green-400 font-bold">
+                    <p>Total slaps delivered: <span className="text-purple-400 font-bold">{slapCount}</span></p>
+                    <p>Impact level: <span className="text-green-400 font-bold">
                       {getLevelDescription(slapCount)}
                     </span></p>
                   </div>
